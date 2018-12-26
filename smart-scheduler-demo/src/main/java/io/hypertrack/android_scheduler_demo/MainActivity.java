@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity implements SmartScheduler.Jo
         // Create a new job with specified params
         Job job = createJob();
         if (job == null) {
-            Toast.makeText(MainActivity.this, "Invalid paramteres specified. " +
+            Toast.makeText(MainActivity.this, "Invalid parameters specified. " +
                     "Please try again with correct job params.", Toast.LENGTH_SHORT).show();
             return;
         }
